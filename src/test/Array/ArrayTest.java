@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyTest {
+public class ArrayTest {
     @Test(timeout = 10)
     public void test_905(){
         Solution_905 s = new Solution_905();
