@@ -1,6 +1,7 @@
 package HashTable;
 
 import main.HashTable.Solution_500;
+import main.HashTable.Solution_811;
 import main.HashTable.Solution_929;
 import org.junit.Test;
 
@@ -21,5 +22,15 @@ public class HashTableTest {
         String[] emails = {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com",
                 "testemail+david@lee.tcode.com"};
         System.out.println(s.numUniqueEmails(emails));
+    }
+
+    @Test
+    public void test_811(){
+        Solution_811 s = new Solution_811();
+//        String[] cpdomains = {"900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"};
+        String[] cpdomains = {"9001 discuss.leetcode.com"};
+        for (String cp : s.subdomainVisits(cpdomains)){
+            System.out.println(cp);
+        }
     }
 }
