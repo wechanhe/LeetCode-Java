@@ -1,5 +1,6 @@
 package HashTable;
 
+import main.HashTable.Solutin_884;
 import main.HashTable.Solution_500;
 import main.HashTable.Solution_811;
 import main.HashTable.Solution_929;
@@ -32,5 +33,14 @@ public class HashTableTest {
         for (String cp : s.subdomainVisits(cpdomains)){
             System.out.println(cp);
         }
+    }
+
+    @Test
+    public void test_884(){
+        Solutin_884 s = new Solutin_884();
+        String A = "this apple is sweet", B = "this apple is sour";
+        String[] res = s.discuss(A, B);
+        for (String word : res)
+            System.out.println(word);
     }
 }
