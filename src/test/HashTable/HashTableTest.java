@@ -60,4 +60,10 @@ public class HashTableTest {
         for (Integer i : list)
             System.out.print(i+" ");
     }
+    @Test
+    public void test_852(){
+        Solution_852 s = new Solution_852();
+        int[] A = {0,2,1,0};
+        System.out.println(s.peakIndexInMountainArray(A));
+    }
 }
