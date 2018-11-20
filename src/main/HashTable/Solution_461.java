@@ -2,7 +2,7 @@ package main.HashTable;
 
 /**
  * question: 汉明距离——两个整数写成二进制的形式，他们不同位数的个数
- * solution:
+ * solution: 按照十进制转二进制的方法，计算不同位的个数，循环条件要注意
  * discussion:
  */
 public class Solution_461 {
