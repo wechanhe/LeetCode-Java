@@ -4,7 +4,7 @@ public class TreeNode {
     public int val;
     public TreeNode left;
     public TreeNode right;
-    TreeNode(int x) { val = x; }
+    public TreeNode(int x) { val = x; }
     public String toString(){
         return Integer.toString(val);
     }
@@ -48,5 +48,13 @@ public class TreeNode {
                 node.right = nodes[2 * i + 1];
         }
         return nodes[1];
+    }
+
+    public void visit(TreeNode t){
+        if (t != null){
+            System.out.print(t.val);
+            visit(t.left);
+            visit(t.right);
+        }
     }
 }

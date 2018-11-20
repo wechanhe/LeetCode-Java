@@ -3,7 +3,7 @@ package main.HashTable;
 /**
  * question: 汉明距离——两个整数写成二进制的形式，他们不同位数的个数
  * solution: 按照十进制转二进制的方法，计算不同位的个数，注意循环条件
- * discussion:
+ * discussion: Integer.bitCount
  */
 public class Solution_461 {
     public int hammingDistance(int x, int y) {
@@ -16,5 +16,8 @@ public class Solution_461 {
             y /= 2;
         }
         return count;
+    }
+    public int discuss(int x, int y){
+        return Integer.bitCount(x ^ y);
     }
 }
