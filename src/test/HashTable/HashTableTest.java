@@ -1,9 +1,6 @@
 package HashTable;
 
-import main.HashTable.Solutin_884;
-import main.HashTable.Solution_500;
-import main.HashTable.Solution_811;
-import main.HashTable.Solution_929;
+import main.HashTable.*;
 import org.junit.Test;
 
 public class HashTableTest {
@@ -42,5 +39,11 @@ public class HashTableTest {
         String[] res = s.discuss(A, B);
         for (String word : res)
             System.out.println(word);
+    }
+
+    @Test
+    public void test_461(){
+        Solution_461 s = new Solution_461();
+        System.out.println(s.hammingDistance(1, 0));
     }
 }
