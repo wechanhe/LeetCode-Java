@@ -1,6 +1,7 @@
 package HashTable;
 
 import main.HashTable.*;
+import main.LinkedList.Solution_876;
 import main.util.TreeNode;
 import org.junit.Test;
 
@@ -74,4 +75,5 @@ public class HashTableTest {
         for (int i=0;i<A.length;i++)
             System.out.print(A[i]+" ");
     }
+
 }
