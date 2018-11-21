@@ -66,4 +66,12 @@ public class HashTableTest {
         int[] A = {0,2,1,0};
         System.out.println(s.peakIndexInMountainArray(A));
     }
+    @Test
+    public void test_922(){
+        Solution_922 s = new Solution_922();
+        int[] A = {3,1,4,2};
+        A = s.sortArrayByParityII(A);
+        for (int i=0;i<A.length;i++)
+            System.out.print(A[i]+" ");
+    }
 }
