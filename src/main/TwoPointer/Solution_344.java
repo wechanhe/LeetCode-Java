@@ -1,7 +1,7 @@
 package main.TwoPointer;
 
 /**
- * question:
+ * question: 字符串逆序
  * solution:
  * discussion:
  */
